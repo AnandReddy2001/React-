@@ -1,8 +1,8 @@
 import React from "react";
 import "./Loginsignup.css";
-// import user_icon from "../Assets/user.png";
-// import email_icon from "../Assets/mail.png";
-// import password_icon from "../Assets/password.png";
+import user_icon from "../Assets/user.png";
+import email_icon from "../Assets/mail.png";
+import password_icon from "../Assets/password.png";
 
 const Loginsignup = () => {
   return (
@@ -13,15 +13,15 @@ const Loginsignup = () => {
       </div>
       <div className="inputs">
         <div className="input">
-          {/* <img src={user_icon} alt="" /> */}
+          <img src={user_icon} alt="" />
           <input type="text" placeholder="Name" />
         </div>
         <div className="input">
-          {/* <img src={email_icon} alt="" /> */}
+          <img src={email_icon} alt="" />
           <input type="email" placeholder="Email" />
         </div>
         <div className="input">
-          {/* <img src={password_icon} alt="" /> */}
+          <img src={password_icon} alt="" />
           <input type="password" placeholder="Password" />
         </div>
       </div>
